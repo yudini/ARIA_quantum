@@ -5,6 +5,7 @@ from projectq.ops import H, CNOT, Measure, Toffoli, X, All, T, Tdag, S, Swap
 from projectq.backends import ResourceCounter, ClassicalSimulator
 from projectq.meta import Compute, Uncompute, Dagger
 
+
 def Sbox(eng, u, q, s, flag, round, resource_check):
 
     with Compute(eng):
